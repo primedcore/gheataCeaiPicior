@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="unicode">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gheață, ceai, picior</title>
+    <link href="gheațăCeaiPicior.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="intro">
+      <p>Instrucțiuni: ca la jocul piatră, hârtie, foarfece, dar aici:
+        <ul>
+          <li>Gheața rupe piciorul</li>
+          <li>Ceaiul topește gheața</li>
+          <li>Piciorul sparge ceaiul</li>
+        </ul>
+      </p>
+      <br>
+      <h3>Apasă pentru a juca Gheață, ceai, picior!</h3>
+      <button onclick="rps()"><h1>Start joc</h1></button>
+    </div>
+      <br>
+    <div id="joc">
+      <div id="info">
+        <h3 id="runda"></h3>
+        <h3 id="scor"></h3>
+      </div>
+      <a onclick="rpsRound('Gheață')"><img src="gheață.png"></a>
+      <a onclick="rpsRound('Ceai')"><img src="ceai.png"></a>
+      <a onclick="rpsRound('Picior')"><img src="picior.png"></a>
+      <h1 id="rezultat">Tu alegi primul!</h1>
+      <h3 id="alegeri"></h3>
+    </div>
+    <footer>
+      <p>© 2020 _primecode. Website sub <a href="LICENSE.txt" target="_blank">licența MIT</a>. „Snowflake 2 icon” (<a href="gheață.png">gheață.png</a>), „Teapot icon” (<a href="ceai.png">ceai.png</a>) și „Footprint icon” (<a href="picior.png">picior.png</a>) de <a href="http://lorcblog.blogspot.com" target="_blank">Lorc</a>.</p>
+    </footer>
+    <script src="gheațăCeaiPicior.js"></script>
+  </body>
+</html>
